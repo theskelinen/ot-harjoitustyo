@@ -1,0 +1,104 @@
+commit 04a5d81a1cf998bff37a53a9ea6a1f151ae99300
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:26:58 2023 +0200
+
+    poistettu file1 ja rename file2
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 7eafba5757c50ac4c162c079f658b4b6adf1eed5
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:22:22 2023 +0200
+
+    tehty kolme uutta fileä
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 51aad4efebec73336b304655dbc65934a070bea1
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:14:24 2023 +0200
+
+    muutoksia eka ja kolmas teksteihin
+
+ eka.txt    | 6 ++++--
+ kolmas.txt | 1 +
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+commit a198db8bdf6a3dc78cc1e14945348a1da4e20fff
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:10:53 2023 +0200
+
+    muutettu nimeä tiedosto.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5965fa5a891b917fbdcaa1e213e80ca3031a1da8
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:06:08 2023 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ae4e80a27954e18c10de2ac926a839eb184cc544
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:02:16 2023 +0200
+
+    Poistettu 1. virke ja lisätty rivi tekstiä
+
+ tiedosto.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit e60c90b1cddd8d3b069d99802ad6bc404d414cdc
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Wed Mar 15 07:00:22 2023 +0200
+
+    Lisätty tekstiä tiedosto.txt
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e78dc8a6b87865a236ef8618691f4926bce15cae
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Mon Mar 13 07:44:42 2023 +0200
+
+    kansio ja tiedosto
+
+ stuff/joku.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 04d8995d5be568eabcb165e2d50f7e296bff4ca2
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Mon Mar 13 07:42:59 2023 +0200
+
+    uusi tiedosto
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a24489972a8d9890e838cef01cc5ba76063ca174
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Mon Mar 13 07:38:35 2023 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit e9c0c1ca6464a382d2de68c4794ce338f35af41a
+Author: theskelinen <ssahlman1@gmail.com>
+Date:   Mon Mar 13 07:34:48 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
