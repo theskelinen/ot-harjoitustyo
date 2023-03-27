@@ -22,7 +22,7 @@ Sovelluksella on ainoastaan yksi käyttäjärooli, eli normaali pelaaja.
 - Käyttäjä voi tallentaa pelin etenemisen
   - Käyttäjä voi poistaa tallennuksen
  
- ## Jatkokehitys ideoita
+ ## Jatkokehitysideoita
  
 - Käyttäjä voi luoda hahmon eri hahmoluokista
   - Hahmoluokka vaikuttaa hahmon ominaisuuspisteisiin
