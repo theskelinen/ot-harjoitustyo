@@ -6,7 +6,9 @@ Tavallista tekstiä, **jossa lihavoitu** ja *kursivoitu osuus*
 
 [gitlog](laskarit/viikko1/gitlog.txt)
 
-[vaativuusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+[vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+
+[työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
 
 Muutos paikallisesti
 
