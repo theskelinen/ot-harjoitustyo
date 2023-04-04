@@ -16,29 +16,29 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 
 1. Asenna riippuvuudet komennolla:
 
-poetry install
+<mark>poetry install</mark>
 
 2. Suorita alustus:
 
-poetry run invoke build
+<mark>poetry run invoke build</mark>
 
-3. Käynnistä sovellus
+3. Käynnistä sovellus:
 
-poetry run invoke start
+<mark>poetry run invoke start</mark>
 
 ## Ohjelman suorittaminen
 
 Suorittaminen tapahtuu komennolla:
 
-poetry run invoke start
+<mark>poetry run invoke start</mark>
 
 Testit suoritetaan komennolla:
 
-poetry run invoke test
+<mark>poetry run invoke test</mark>
 
 Testikattavuus generoidaan komennolla:
 
-poetry run invoke coverage-report
+<mark>poetry run invoke coverage-report</mark>
 
 Raportti generoituu hakemistoon "htmlcov".
 
