@@ -16,7 +16,7 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 
 1. Asenna riippuvuudet komennolla:
 
-==poetry install==
+- poetry install
 
 2. Suorita alustus:
 
