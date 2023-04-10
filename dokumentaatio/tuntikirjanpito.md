@@ -10,4 +10,9 @@
 | 2.4  | 4      | Pelin sovelluslogiikan hahmottelu ja rakentaminen    |
 | 3.4  | 2      | Pelin sovelluslogiikan rakentaminen ja kurssimateriaalin tutkiminen   |
 | 4.4  | 3      | Pelin sovelluslogiikan rakentaminen, testin hahmottelu, invokejen tekeminen, Readmen päivitys ja changelog laatiminen  |
+| 5.4  | 3      | Room luokan rakentaminen  |
+| 6.4  | 3      | Hahmojen animaatioiden rakentaminen  |
+| 7.4  | 2      | Sovelluslogiikan "riippuvuus injektioiden" päivittäminen  |
+| 8.4  | 3      | Health bar luokan rakentaminen ja tekstin tulostaminen ruudulle |
+| 10.4  | 2      | Tuntikirjanpidon päivitys ja eventien rakentamisen hahmottelu |
 
