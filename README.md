@@ -11,6 +11,7 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 - [vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
 - [työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
 - [changelog](dokumentaatio/changelog.md)
+- [arkkitehtuurikuvaus](dokumentaatio/arkkitehtuuri.md)
 
 ## Asennus
 
