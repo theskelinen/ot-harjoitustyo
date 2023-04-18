@@ -18,11 +18,7 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 
 - poetry install
 
-2. Suorita alustus:
-
-- poetry run invoke build
-
-3. Käynnistä sovellus:
+2. Käynnistä sovellus:
 
 - poetry run invoke start
 
@@ -40,7 +36,7 @@ Testikattavuus generoidaan komennolla:
 
 - poetry run invoke coverage-report
 
-- raportti generoituu hakemistoon "htmlcov".
+- raportti generoituu hakemistoon "htmlcov"
 
 Pylint tarkistusten suoritukseen käytetään komentoa:
 
