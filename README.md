@@ -40,5 +40,8 @@ Testikattavuus generoidaan komennolla:
 
 - poetry run invoke coverage-report
 
-Raportti generoituu hakemistoon "htmlcov".
+- raportti generoituu hakemistoon "htmlcov".
 
+Pylint tarkistusten suoritukseen käytetään komentoa:
+
+- poetry run invoke lint
