@@ -14,8 +14,8 @@ Sovelluksella on ainoastaan yksi käyttäjärooli, eli normaali pelaaja.
 
 - Käyttäjä voi luoda peliin hahmon valitsemallaan nimellä
 - Käyttäjä voi ohjata hahmoa luolaston eri huoneista toiseen
-- Käyttäjä voi taistella luolaston eri vihollisia vastaan **tehty**
-  - Hahmolla ja vihollisilla on elämämittari **tehty**
+- Käyttäjä voi taistella luolaston eri vihollisia vastaan **--tehty**
+  - Hahmolla ja vihollisilla on elämämittari **--tehty**
   - Voitetut taistelut kerryttävät pisteitä
 - Käyttäjä voi kerätä luolastosta löytyviä tavaroita
   - Löydetyt tavarat kerryttävät pisteitä
