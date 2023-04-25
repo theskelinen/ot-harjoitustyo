@@ -22,6 +22,12 @@
 | 15.4  | 4      | Sprite "maskien" implementointi. Rikki olevien sprite assetien vaihto ja toimivien etsintä |
 | 16.4  | 6      | Sprite mask debuggaus. Hiiren sprite ja vihollis spriten keskinäinen toiminta. Health bar bugin ratkominen |
 | 18.4  | 3      | Pylint käyttöönotto, dokumentaation päivitys |
+| 20.4  | 3      | State-enginen opiskelu valikoiden mahdollistamiseksi  |
+| 21.4  | 2      | State-enginen suunnittelu projektiin |
+| 22.4  | 5      | State-enginen implementointi |
+| 23.4  | 6      | Koodin refraktorointi state engineen sopivaksi |
+| 24.4  | 2      | Dokumentaatio ja testitapausten suunnittelu |
 
-Kokonaistunnit: 55,5 h
+
+Kokonaistunnit: 73,5 h
 
