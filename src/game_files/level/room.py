@@ -1,6 +1,10 @@
+from sprites.imp_axe import ImpAxe
+from sprites.death_bringer import DeathBringer
+
+
 class Room:
-    def __init__(self, enemies):
-        self.enemies_list = enemies
+    def __init__(self, ):
+        self.enemies_list = [ImpAxe(), DeathBringer()]
         self.rooms_list = self._initialize_rooms()
         self.room_number = 1
         self.room = self.rooms_list[self.room_number]
