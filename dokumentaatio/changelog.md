@@ -15,7 +15,7 @@
 - Pelihahmot kuolevat ja poistuvat ruudulta healthpointien pudotessa nollaan
 
 
-## Viikko 4
+## Viikko 5
 
 - Pelistä on tehty state-engine pohjainen, mikä mahdollistaa pelin tilan vaihtamisen (valikot, intro)
 - Pelihahmojen animaatioita on lisätty, nyt pelihahmo torjuu epäonnistunita vastustajan iskuja ja hahmot heilahtavat osumasta
