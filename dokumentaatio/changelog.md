@@ -20,3 +20,7 @@
 - Pelistä on tehty state-engine pohjainen, mikä mahdollistaa pelin tilan vaihtamisen (valikot, intro)
 - Pelihahmojen animaatioita on lisätty, nyt pelihahmo torjuu epäonnistunita vastustajan iskuja ja hahmot heilahtavat osumasta
 - Iskusta generoituu ruudulle damagen määrän kertova teksti ja lisähuomio, mikäli isku oli kriittinen
+
+## Viikko 6
+
+- Otettu uusi python kirjasto "kink" käyttöön riippuvuuksien injektoimiseksi ja tulevan testauksen helpottamiseksi
