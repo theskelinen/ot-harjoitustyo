@@ -12,7 +12,7 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 - [työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
 - [changelog](dokumentaatio/changelog.md)
 - [arkkitehtuurikuvaus](dokumentaatio/arkkitehtuuri.md)
-. [releases](https://github.com/theskelinen/ot-harjoitustyo/releases)
+- [releases](https://github.com/theskelinen/ot-harjoitustyo/releases)
 
 ## Asennus
 
