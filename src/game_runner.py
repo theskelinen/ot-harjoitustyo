@@ -1,20 +1,21 @@
 import sys
 import pygame
+from kink import inject
 
 
+@inject
 class GameRunner(object):
 
-    def __init__(self, screen, states, start_state):
+    def __init__(self, screen, states, start_state, clock):
 
         self.screen = screen
         self.states = states
         self.start_state = start_state
-        self.clock = pygame.time.Clock()
+        self.clock = clock
         self.fps = 60
         self.state_name = None
         self.state = self.states[self.start_state]
         self.state.start()
-        self.run()
 
     def run(self):
         running = True

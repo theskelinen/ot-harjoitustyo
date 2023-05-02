@@ -1,15 +1,15 @@
 import pygame
+from kink import inject
 from .game_state import GameState
-from game_files.level.level import Level
-from game_files.ui.panel import Panel
 
 
+@inject
 class Game(GameState):
 
-    def __init__(self):
+    def __init__(self, level, panel):
         super().__init__()
-        self.level = Level()
-        self.panel = Panel(self.level.sprites)
+        self.level = level
+        self.panel = panel
         self.next_state = "Intro"
 
     def update(self):

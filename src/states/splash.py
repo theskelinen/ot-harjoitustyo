@@ -3,7 +3,7 @@ from .game_state import GameState
 
 class Splash(GameState):
     def __init__(self):
-        super(Splash, self).__init__()
+        super().__init__()
         self.title = self.font.render("Luolasto", True, self.white)
         self.title_rect = self.title.get_rect(center=self.screen_rect.center)
         self.next_state = "Game"

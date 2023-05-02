@@ -1,11 +1,13 @@
 import pygame
+from kink import inject
 
 
-class GameState(object):
+@inject
+class GameState():
 
-    def __init__(self):
+    def __init__(self, font):
         self.done = False
-        self.font = pygame.font.SysFont("Verdana", 20)
+        self.font = font
         self.white = (255, 255, 255)
         self.black = (0, 0, 0)
         self.screen_rect = pygame.display.get_surface().get_rect()

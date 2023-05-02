@@ -1,6 +1,8 @@
 import pygame
+from kink import inject
 
 
+@inject
 class LevelAction:
     def __init__(self, level_data):
         self.level_data = level_data

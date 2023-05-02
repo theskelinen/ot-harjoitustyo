@@ -204,6 +204,21 @@ plugins = ["setuptools"]
 requirements-deprecated-finder = ["pip-api", "pipreqs"]
 
 [[package]]
+name = "kink"
+version = "0.6.6"
+description = "Dependency injection for python."
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "kink-0.6.6-py3-none-any.whl", hash = "sha256:02bb2b020d3933cea89d84fd110d5caeb5b250a5f722d4793d51c57bc443c5a1"},
+    {file = "kink-0.6.6.tar.gz", hash = "sha256:4b32ad6679f877a74eba4e94f448fa65f0152d358594936f253c064d947b4341"},
+]
+
+[package.dependencies]
+typing_extensions = ">=4.1.1,<5.0.0"
+
+[[package]]
 name = "lazy-object-proxy"
 version = "1.9.0"
 description = "A fast and thorough lazy object proxy."
@@ -492,7 +507,7 @@ files = [
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -588,4 +603,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "6e85686031ab6edfe082a0d5b687226182064224f50b5616600a36beab2dc417"
+content-hash = "520d85e4242330622143e66be428a3ad5a2e63da42e164f043dcb3acc071f3b0"

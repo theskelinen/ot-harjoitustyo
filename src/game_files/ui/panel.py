@@ -1,37 +1,16 @@
 import pygame
-from game_files.ui.healthbar import HealthBar
+from kink import inject
 
 
+@inject
 class Panel:
-    def __init__(self, sprites):
+    def __init__(self, sprites, font, hb_dict, panel_img):
         self.sprites = sprites
-        self.font = pygame.font.SysFont("Arial", 20)
+        self.font = font
         self.red = (255, 0, 0)
         self.green = (0, 255, 0)
-        self.panel = self._load_panel()
-        self._health_bar_dict = self._load_health_bar()
-
-    def _load_panel(self):
-        panel = pygame.image.load("src/assets/Panel/panel.png").convert_alpha()
-        panel = pygame.transform.scale(panel, (1280, 150))
-        return panel
-
-    def _load_health_bar(self):
-        health_bar_dict = {}
-        for sprite in self.sprites:
-            if sprite.name == "Knight":
-                knight_hb = HealthBar(200, sprite.current_hp, sprite.max_hp)
-                health_bar_dict[sprite.name] = knight_hb
-            if sprite.name == "Imp_Axe":
-                imp_axe_hb = HealthBar(
-                    900, sprite.current_hp, sprite.max_hp)
-                health_bar_dict[sprite.name] = imp_axe_hb
-            if sprite.name == "Death_Bringer":
-                death_bringer_hb = HealthBar(
-                    900, sprite.current_hp, sprite.max_hp)
-                health_bar_dict[sprite.name] = death_bringer_hb
-
-        return health_bar_dict
+        self.panel = panel_img
+        self._health_bar_dict = hb_dict
 
     def draw(self, screen):
         screen.blit(self.panel, (0, 720))
