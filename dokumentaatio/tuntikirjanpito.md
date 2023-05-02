@@ -27,7 +27,9 @@
 | 22.4  | 5      | State-enginen implementointi |
 | 23.4  | 6      | Koodin refraktorointi state engineen sopivaksi |
 | 24.4  | 2      | Dokumentaatio ja testitapausten suunnittelu |
+| 29.4  | 5      | "Kink" libraryn ja riippuvuusinjektioiden opiskelu |
+| 1.5  | 5      | "Kink" kirjaston ja riippuvuusinjektioiden implementointi |
 
 
-Kokonaistunnit: 73,5 h
+Kokonaistunnit: 83,5 h
 
