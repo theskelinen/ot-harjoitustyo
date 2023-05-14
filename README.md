@@ -1,6 +1,6 @@
 # Luolasto
 
-Luolasto on vuoropohjainen RPG, jossa pelaajan tehtävänä on löytää ulos vihamielisiä otuksia täynnä olevasta luolasta.
+Luolasto on vuoropohjainen RPG, jossa pelaajan tehtävänä on kukistaa vastustajat luolasta ulos pääsemiseksi.
 
 ## Python-versio
 
@@ -8,11 +8,13 @@ Sovellus on kehitetty Python versiolla 3.10. Vanhempien versioiden kanssa voi il
 
 ## Dokumentaatio
 
-- [vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
-- [työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
-- [changelog](dokumentaatio/changelog.md)
-- [arkkitehtuurikuvaus](dokumentaatio/arkkitehtuuri.md)
-- [releases](https://github.com/theskelinen/ot-harjoitustyo/releases)
+- [Käyttöohje](dokumentaatio/kayttoohje.md)
+- [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+- [Arkkitehtuurikuvaus](dokumentaatio/arkkitehtuuri.md)
+- [Testausdokumentti](dokumentaatio/testausdokumentti.md)
+- [Työaikakirjanpito](dokumentaatio/tuntikirjanpito.md)
+- [Changelog](dokumentaatio/changelog.md)
+- [Releases](https://github.com/theskelinen/ot-harjoitustyo/releases)
 
 ## Asennus
 
