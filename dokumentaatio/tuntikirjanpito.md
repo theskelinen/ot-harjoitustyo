@@ -29,7 +29,15 @@
 | 24.4  | 2      | Dokumentaatio ja testitapausten suunnittelu |
 | 29.4  | 5      | "Kink" libraryn ja riippuvuusinjektioiden opiskelu |
 | 1.5  | 5      | "Kink" kirjaston ja riippuvuusinjektioiden implementointi |
+| 2.5  | 2      | Stub-luokkien ja Mock-mentelmän selvittely|
+| 4.5 | 3      | Level-luokan testauksen rakentaminen  |
+| 5.5  | 2      | GameRunner-luokan testauksen rakentaminen |
+| 6.5  | 2     | Character-luokan testit |
+| 7.5  | 2      | States-luokan testit |
+| 11.5 | 6    | Pelin tilojen rakentaminen loppuun |
+| 12.5  | 4      | Pelihahmon juokseminen ja "you died", sekä restart toiminto |
+| 14.5  | 5      | Dokumentointi ja palautus |
 
 
-Kokonaistunnit: 83,5 h
+Kokonaistunnit: 109,5 h
 
