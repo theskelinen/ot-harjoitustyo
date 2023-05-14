@@ -4,9 +4,10 @@ Ohjelman automatisoidut testit on toteutettu unittestilla. Lisäksi ohjelmaa on 
 
 ## Sovelluslogiikan testaus
 
-Sovelluslogiikasta vastaavia luokkia on testattu vastaavasti nimetyillä testitiedostoilla.
 GameRunner-luokan testaus on toteutettu luomalla StubStates-luokka, jonka avulla on voitu testata GameRunner-luokan run, update, get_events ja next_state metodeja 
-States-luokan testaamiseksi on luotu StubLevel- ja StubEvents-luokat. Level-luokan toimintaa ja LevelAction -luokan toimintaa on testattu niin ikään Stub-luokilla.
+States-luokan testaamiseksi on luotu StubLevel- ja StubEvents-luokat.
+
+Level-luokan toimintaa ja LevelAction -luokan toimintaa on testattu niin ikään Stub-luokilla.
 Stub-luokkien käyttö on ollut mahdollista, sillä luokkien riippuvuudet on injektoitu hyödyntäen ulkoista "kink" kirjastoa.
 
 ## Hahmoluokan testaus
@@ -18,7 +19,7 @@ Sprites_test testaa vastaavasti Knight-luokan animaatiolistojen lataamista.
 
 Sovelluksen testikattavuus on 55%.
 
-![testikattavuus](linkki)
+![testikattavuus](https://github.com/theskelinen/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/testikattavuus.png)
 
 ## Manuaalinen testaus
 
