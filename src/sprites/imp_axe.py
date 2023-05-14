@@ -3,16 +3,25 @@ from sprites.character import Character
 
 
 class ImpAxe(Character):
+
+    """
+    Imp_axe hahmoluokka
+
+    """
+
     def __init__(self):
+        """
+        Parametrit: kts. yst. knight luokka.
+        """
+
         self.name = "Imp_Axe"
         self.max_hp = 30
         self.current_hp = 30
-        self.strength = 3
+        self.strength = 8
         self.multiplier_min = -2
         self.multiplier_max = 4
         super().__init__()
         self.rect.center = (800, 540)
-        self.mask = pygame.mask.from_surface(self.image)
 
     def _load_ready_images(self):
         temp_list = []
@@ -55,4 +64,7 @@ class ImpAxe(Character):
         self.animation_list.append(temp_list)
 
     def _load_block_images(self):
+        pass
+
+    def _load_run_images(self):
         pass

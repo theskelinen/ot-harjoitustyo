@@ -2,7 +2,23 @@ import pygame
 
 
 class SwordIcon(pygame.sprite.Sprite):
+
+    """
+    Luokka hiiren kursorin miekkaikonille
+
+    """
+
     def __init__(self):
+        """
+        Parametrit:
+                    name: nimi
+                    show: näkyykö miekan kuva
+                    image: miekkakuva
+                    image_scaled: kuvan skaalaus
+                    mask: kuvan "maski" collision detectionia varten
+                    rect: kuvan sijainti ruudulla
+        """
+
         super().__init__()
 
         self.name = "Sword"

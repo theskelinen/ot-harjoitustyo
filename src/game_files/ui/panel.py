@@ -4,6 +4,17 @@ from kink import inject
 
 @inject
 class Panel:
+
+    """
+    Näytön info-paneelista vastaava luokka
+
+    Args:
+        sprites: hahmot
+        font: fontti
+        hb_dict: sanakirja elämämittareista
+        panel_img: paneelin kuva
+    """
+
     def __init__(self, sprites, font, hb_dict, panel_img):
         self.sprites = sprites
         self.font = font
@@ -13,6 +24,11 @@ class Panel:
         self._health_bar_dict = hb_dict
 
     def draw(self, screen):
+        """
+        Paneelin piirtämisestä vastaava metodi
+
+        """
+
         screen.blit(self.panel, (0, 720))
         index = 0
         for sprite in self.sprites:
@@ -31,10 +47,20 @@ class Panel:
                 index += 1
 
     def _draw_text(self, screen, text, x, y):
+        """
+        Paneelin tekstin piirtämisestä vastaava metodi
+
+        """
+
         img = self.font.render(text, True, self.red)
         screen.blit(img, (x, y))
 
     def _draw_health_bar(self, screen, sprite_hp, health_bar, index):
+        """
+        Paneelin elämämittarin piirtämisestä vastaava metodi
+
+        """
+
         health_bar.current_hp = sprite_hp
         ratio = health_bar.current_hp / health_bar.max_hp
         pygame.draw.rect(screen, self.red,

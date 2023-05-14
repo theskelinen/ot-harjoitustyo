@@ -4,9 +4,31 @@ from kink import inject
 
 
 @inject
-class GameRunner(object):
+class GameRunner():
+
+    """
+    Pelin pyörittämisestä vastaava luokka
+
+    Args:
+        screen: peli-ikkuna
+        states: pelin eri tilat
+        start_state: aloitustila
+        clock: pelikello
+
+    """
 
     def __init__(self, screen, states, start_state, clock):
+        """
+        Parametrit:
+                    screen: näyttö
+                    states: sanakirja tiloista
+                    start_state: aloitustila
+                    clock: pelikello
+                    fps: kellotaajuus
+                    state_name: tilan nimi
+                    state: nykytila
+                    state.start: käynnistää aloitustilan
+        """
 
         self.screen = screen
         self.states = states
@@ -18,6 +40,11 @@ class GameRunner(object):
         self.state.start()
 
     def run(self):
+        """
+        Metodi vastaa pelin pyörittämisestä while loopin avulla
+
+        """
+
         running = True
         while running:
             self.clock.tick(self.fps)
@@ -27,6 +54,11 @@ class GameRunner(object):
             pygame.display.update()
 
     def get_events(self):
+        """
+        Metodi vastaa pelin tapahtumien hakemisesta
+
+        """
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.quit()
@@ -38,11 +70,21 @@ class GameRunner(object):
             self.state.get_event(event)
 
     def update(self):
+        """
+        Metodi vastaa pelitapahtumien päivittämisestä ja kutsuu tarvittaessa seuraavaa pelitilaa
+
+        """
+
         self.state.update()
         if self.state.done:
             self.next_state()
 
     def next_state(self):
+        """
+        Metodi vastaa seuraavan tilan vaihtamisesta
+
+        """
+
         next_state = self.state.next_state
         self.state.done = False
         self.state_name = next_state
@@ -50,8 +92,18 @@ class GameRunner(object):
         self.state.start()
 
     def quit(self):
+        """
+        Metodi sulkee pelin kutsuttaessa
+
+        """
+
         pygame.quit()
         sys.exit()
 
     def draw(self):
+        """
+        Metodi vastaa pelin kuvien ja tapahtumien piirtämisestä
+
+        """
+
         self.state.draw(self.screen)

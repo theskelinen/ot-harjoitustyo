@@ -14,7 +14,14 @@ from game_files.ui.panel import Panel
 
 def bootstrap_di():
 
+    """
+    Tämä funktio alustaa dependancy injection containerin
+
+    """    
+
     panel_img = load_panel()
+
+    you_died_img = load_you_died()
 
     font = pygame.font.SysFont("Verdana", 20)
 
@@ -36,7 +43,7 @@ def bootstrap_di():
 
     room = Room(enemies)
 
-    level_data = LevelData(damage_text_group)
+    level_data = LevelData(damage_text_group, you_died_img)
 
     level_action = LevelAction(level_data)
 
@@ -82,3 +89,11 @@ def load_panel():
         "src/assets/Panel/panel.png").convert_alpha()
     panel = pygame.transform.scale(panel, (1280, 150))
     return panel
+
+
+def load_you_died():
+    img = pygame.image.load(
+        "src/assets/Others/you_died.png").convert_alpha()
+    img = pygame.transform.scale(
+        img, (img.get_width() * 0.7, img.get_height() * 0.7))
+    return img

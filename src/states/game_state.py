@@ -1,13 +1,25 @@
 import pygame
-from kink import inject
 
 
-@inject
 class GameState():
 
-    def __init__(self, font):
+    """
+    Luokka toimii pääluokkana eri pelitiloille.
+
+    """
+
+    def __init__(self):
+        """
+        Parametrit:
+                    done: onko tila valmis
+                    font: fontin luominen
+                    white: valkoinen väri
+                    black: musta väri
+                    screen_rect: näytön tason rect objektin tallentaminen
+        """
+
         self.done = False
-        self.font = font
+        self.font = pygame.font.SysFont("Verdana", 20)
         self.white = (255, 255, 255)
         self.black = (0, 0, 0)
         self.screen_rect = pygame.display.get_surface().get_rect()
@@ -21,5 +33,5 @@ class GameState():
     def get_event(self, event):
         pass
 
-    def draw(self, surf):
+    def draw(self, screen):
         pass

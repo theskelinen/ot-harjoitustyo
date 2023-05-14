@@ -3,12 +3,22 @@ from sprites.character import Character
 
 
 class DeathBringer(Character):
+
+    """
+    Death_Bringer hahmoluokka
+
+    """
+
     def __init__(self):
+        """
+        Parametrit: kts. yst. knight luokka.
+        """
+
         self.name = "Death_Bringer"
-        self.max_hp = 50
-        self.current_hp = 50
-        self.strength = 5
-        self.multiplier_min = -3
+        self.max_hp = 20
+        self.current_hp = 20
+        self.strength = 12
+        self.multiplier_min = -5
         self.multiplier_max = 5
         super().__init__()
         self.rect.center = (980, 300)
@@ -54,4 +64,7 @@ class DeathBringer(Character):
         self.animation_list.append(temp_list)
 
     def _load_block_images(self):
+        pass
+
+    def _load_run_images(self):
         pass

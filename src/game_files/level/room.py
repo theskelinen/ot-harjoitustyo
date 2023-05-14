@@ -4,15 +4,39 @@ from kink import inject
 
 @inject
 class Room:
+
+    """
+    Luokka, joka vastaa huoneesta
+
+    Args:
+        enemies_list: lista vihollisista
+
+    """
+
     def __init__(self, enemies_list):
+        """
+        Parametrit:
+                    enemies_list: lista vihollisista
+                    rooms_list: lista alustetuista huoneista
+                    room_number: nykyisen huoneen numero
+                    room: nykyinen huone
+                    room_background: huoneen tausta
+                    floor: huoneen lattia
+        """
+
         self.enemies_list = enemies_list
         self.rooms_list = self._initialize_rooms()
-        self.room_number = 1
+        self.room_number = 0
         self.room = self.rooms_list[self.room_number]
         self.room_background = self.load_room_background()
         self.floor = self.load_floor()
 
     def _initialize_rooms(self):
+        """
+        huoneen alustaminen
+
+        """
+
         list_of_rooms = []
         for i in range(2):
             enemies = self.enemies_list
@@ -39,7 +63,13 @@ class Room:
         return floor
 
     def next_room(self):
+        """
+        seuraavan huoneen lataaminen
+
+        """
+
         self.room_number += 1
+        self.room = self.rooms_list[self.room_number]
         self.room_background = self.load_room_background()
 
     def draw(self, screen):
