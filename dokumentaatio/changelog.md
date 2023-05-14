@@ -14,7 +14,6 @@
 - Hahmoille luotu healthbarit ja ne toimivat hahmojen healthpointien mukaisesti
 - Pelihahmot kuolevat ja poistuvat ruudulta healthpointien pudotessa nollaan
 
-
 ## Viikko 5
 
 - Pelistä on tehty state-engine pohjainen, mikä mahdollistaa pelin tilan vaihtamisen (valikot, intro)
@@ -24,3 +23,10 @@
 ## Viikko 6
 
 - Otettu uusi python kirjasto "kink" käyttöön riippuvuuksien injektoimiseksi ja tulevan testauksen helpottamiseksi
+
+## Viikko 7/8
+
+- Pelin tason voi nyt läpäistä
+- Pelihahmo juoksee kentän loppuun, kun kaikki viholliset on kukistettu
+- Pelaajahahmon kuollessa ruutuun ilmestyy "you died" teksti
+- Pelin tason voi käynnistää uudelleen
